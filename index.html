@@ -1,0 +1,7 @@
+<a id=a>tweet-editor</a>
+<script type=1 id=template>
+data:text/html,<body onload="l=location;t.value=atob(l.hash.slice(1))"><a onclick="l.hash=btoa(t.value)">Save</a><br><textarea id=t cols=99>
+</script>
+<script>
+a.href=template.innerHTML.trim();
+</script>
